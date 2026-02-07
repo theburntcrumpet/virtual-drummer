@@ -1,0 +1,91 @@
+.pattern-display {
+  background: #1a1a2e;
+  border-radius: 12px;
+  padding: 16px;
+  overflow-x: auto;
+  border: 1px solid #333;
+}
+
+.pattern-display-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+  color: #666;
+}
+
+.pattern-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: fit-content;
+}
+
+.pattern-row {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+
+.pattern-header {
+  margin-bottom: 4px;
+}
+
+.pattern-drum-label {
+  width: 32px;
+  min-width: 32px;
+  font-size: 10px;
+  font-weight: 600;
+  color: #888;
+  text-align: right;
+  padding-right: 8px;
+}
+
+.pattern-step-header {
+  width: 16px;
+  min-width: 16px;
+  height: 16px;
+  font-size: 9px;
+  color: #555;
+  text-align: center;
+  line-height: 16px;
+}
+
+.pattern-step-header.beat {
+  color: #777;
+}
+
+.pattern-step-header.downbeat {
+  color: #aaa;
+  font-weight: 600;
+}
+
+.pattern-step {
+  width: 16px;
+  min-width: 16px;
+  height: 20px;
+  background: #252540;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.1s;
+}
+
+.pattern-step.beat {
+  background: #2a2a4a;
+}
+
+.pattern-step.downbeat {
+  background: #303055;
+}
+
+.pattern-step.current {
+  background: rgba(100, 181, 246, 0.3);
+}
+
+.pattern-hit {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+}

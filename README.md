@@ -1,5 +1,7 @@
 # Virtual Drummer
 
+**[Try it out!](https://theburntcrumpet.github.io/virtual-drummer/)**
+
 A web-based drum pattern generator inspired by GarageBand/Logic Pro's Drummer feature. Generate intelligent drum patterns with an intuitive XY pad interface and export them to your DAW.
 
 ## Features
